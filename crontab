@@ -1,5 +1,7 @@
 * * * * * cd /Users/summitcreek/hallway-tv-automation && ./update.sh >/Users/summitcreek/hallway-tv-automation/update.log 2>/Users/summitcreek/hallway-tv-automation/update.log
 
+9 8 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation/toggle_spotify_offline.scptd
+
 10 8 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation/start_playlist.scptd 50
 10 8 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation/open_slideshow.scptd
 
@@ -14,4 +16,4 @@
 
 0 12 * * 5 /usr/bin/osascript -e 'tell application "Spotify" to quit'
 
-24 22 * * * /bin/bash -lc "/usr/bin/osascript /Users/summitcreek/hallway-tv-automation/open_slideshow.scptd"
+40 22 * * * . ~/.profile && /usr/bin/osascript ~/hallway-tv-automation/open_slideshow.scptd
