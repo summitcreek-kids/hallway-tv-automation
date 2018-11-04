@@ -14,5 +14,4 @@
 
 0 12 * * 5 /usr/bin/osascript -e 'tell application "Spotify" to quit'
 
-10 22 * * * /usr/bin/osascript /Users/summitcreek/hallway-tv-automation/open_slideshow.scptd
-10 22 * * * /usr/bin/osascript /Users/summitcreek/hallway-tv-automation/start_playlist.scptd 50
+16 22 * * * /usr/bin/osascript /Users/summitcreek/hallway-tv-automation/open_slideshow.scptd
