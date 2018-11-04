@@ -1,6 +1,5 @@
 * * * * * cd ~/hallway-tv-automation && ./update.sh && cat crontab | crontab - >./update.log 2>./update.log
 
-9 8 * * 5 /usr/bin/osascript ~/hallway-tv-automation/toggle_spotify_offline.scptd
 10 8 * * 5 /usr/bin/osascript ~/hallway-tv-automation/start_playlist.scptd 50
 10 8 * * 5 /usr/bin/osascript ~/hallway-tv-automation/open_slideshow.scptd
 
@@ -14,6 +13,3 @@
 30 11 * * 5 /usr/bin/osascript ~/hallway-tv-automation/vol_up.scptd 50
 
 0 12 * * 5 /usr/bin/osascript -e 'tell application "Spotify" to quit'
-
-47 22 * * * /usr/bin/osascript ~/hallway-tv-automation/toggle_spotify_offline.scptd
-47 22 * * * . ~/.profile && /usr/bin/osascript ~/hallway-tv-automation/open_slideshow.scptd
