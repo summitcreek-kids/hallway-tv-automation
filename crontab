@@ -1,15 +1,15 @@
 * * * * * cd ~/hallway-tv-automation && ./update.sh && cat crontab | crontab - >./update.log 2>./update.log
 
-10 8 * * 0 /usr/bin/osascript ~/hallway-tv-automation/start_playlist.scptd 50
+#10 8 * * 0 /usr/bin/osascript ~/hallway-tv-automation/start_playlist.scptd 50
 10 8 * * 0 /usr/bin/osascript ~/hallway-tv-automation/open_slideshow.scptd
 
-29 8 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_down.scptd 10
-35 8 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_up.scptd 50
+#29 8 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_down.scptd 10
+#35 8 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_up.scptd 50
 
-10 9 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_down.scptd 10
-0 10 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_up.scptd 50
+#10 9 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_down.scptd 10
+#0 10 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_up.scptd 50
 
-40 10 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_down.scptd 10
-30 11 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_up.scptd 50
+#40 10 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_down.scptd 10
+#30 11 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_up.scptd 50
 
 0 12 * * 0 /usr/bin/osascript -e 'tell application "Spotify" to quit'
