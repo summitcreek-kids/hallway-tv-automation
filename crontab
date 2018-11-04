@@ -1,14 +1,14 @@
 * * * * * cd /Users/summitcreek/hallway-tv-automation && ./update.sh >/Users/summitcreek/hallway-tv-automation/update.log 2>/Users/summitcreek/hallway-tv-automation/update.log
 
 10 8 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation/start_playlist.scptd 50
-29 8 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation//vol_down.scptd 10
-35 8 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation//vol_up.scptd 50
+29 8 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation/vol_down.scptd 10
+35 8 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation/vol_up.scptd 50
 
-10 9 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation//vol_down.scptd 10
-0 10 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation//vol_up.scptd 50
+10 9 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation/vol_down.scptd 10
+0 10 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation/vol_up.scptd 50
 
-40 10 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation//vol_down.scptd 10
-30 11 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation//vol_up.scptd 50
+40 10 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation/vol_down.scptd 10
+30 11 * * 5 /usr/bin/osascript /Users/summitcreek/hallway-tv-automation/vol_up.scptd 50
 
 0 12 * * 5 /usr/bin/osascript -e 'tell application "Spotify" to quit'
 
