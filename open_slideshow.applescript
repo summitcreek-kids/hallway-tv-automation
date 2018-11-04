@@ -1,5 +1,5 @@
-    
-set theUrl to "http://summitcreek-kids-slideshow.s3-website-us-east-1.amazonaws.com/?token=....&delay=7"
+set token to system attribute "DROPBOX_TOKEN"
+set theUrl to "http://summitcreek-kids-slideshow.s3-website-us-east-1.amazonaws.com/?token=" & token & "&delay=7"
 
 tell application "Google Chrome"
 	if not (exists window 1) then reopen
