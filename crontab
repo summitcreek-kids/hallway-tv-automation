@@ -1,6 +1,6 @@
 * * * * * cd /Users/summitcreek/hallway-tv-automation && git pull && cat crontab | crontab - >/Users/summitcreek/crontab.log 2>/Users/summitcreek/crontab.log
 
-5 8 * * 5 /usr/bin/osascript /Users/summitcreek/start_playlist.scpt 50
+10 8 * * 5 /usr/bin/osascript /Users/summitcreek/start_playlist.scpt 50
 29 8 * * 5 /usr/bin/osascript /Users/summitcreek/vol_down.scpt 10 
 35 8 * * 5 /usr/bin/osascript /Users/summitcreek/vol_up.scpt 50
 
