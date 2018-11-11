@@ -13,7 +13,7 @@ on run argv
 		delay 2
 
 		set shuffling to true
-		play track "spotify:user:summitcreekkids:playlist:0uWbQvaFsHMSDdkk0FUM8L"
+		play track (item 2 of argv as string) 
 		delay 0.1
 		set player position to 15
 		delay 10
