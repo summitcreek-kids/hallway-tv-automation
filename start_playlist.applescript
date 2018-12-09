@@ -23,6 +23,8 @@ on run argv
                 		click menu item "Offline Mode" of menu "Spotify" of menu bar 1
             		end tell
         	end tell
+		
+		set miniaturized of window 1 to true
 	end tell
 
 	"OK"
