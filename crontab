@@ -1,6 +1,9 @@
 * * * * * cd ~/hallway-tv-automation && ./update.sh && cat crontab | crontab - >./update.log 2>./update.log
 
-15 8 * * 0 . ~/.bash_profile && /usr/bin/osascript ~/hallway-tv-automation/start_playlist.scptd 45 "spotify:user:summitcreekkids:playlist:0uWbQvaFsHMSDdkk0FUM8L"
+## Regular Sunday
+# 15 8 * * 0 . ~/.bash_profile && /usr/bin/osascript ~/hallway-tv-automation/start_playlist.scptd 45 "spotify:user:summitcreekkids:playlist:0uWbQvaFsHMSDdkk0FUM8L"
+## ATM
+15 8 * * 0 . ~/.bash_profile && /usr/bin/osascript ~/hallway-tv-automation/start_playlist.scptd 45 "spotify:user:summitcreekkids:playlist:5jRnodtWDtpC1dmONxRPK1"
 16 8 * * 0 . ~/.bash_profile && /usr/bin/osascript ~/hallway-tv-automation/open_slideshow.scptd
 
 25 8 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_down.scptd 10
