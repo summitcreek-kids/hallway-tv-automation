@@ -24,32 +24,13 @@
 #27 12 * * 0 /usr/bin/osascript -e 'tell application "System Events" to shut down'
 
 
-## Christmas Flow - 23rd
-00 17 * * 0 . ~/.bash_profile && /usr/bin/osascript ~/hallway-tv-automation/start_playlist.scptd 45 "spotify:user:summitcreekkids:playlist:2rwMi3mhRr5qORHtzfP2Fc"
-
-05 17 * * 0 . ~/.bash_profile && /usr/bin/osascript ~/hallway-tv-automation/open_slideshow.scptd
-
-35 17 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_down.scptd 10
-30 18 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_up.scptd 45
-
-50 19 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_down.scptd 10
-00 20 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_up.scptd 45
-
-20 20 * * 0 /usr/bin/osascript -e 'tell application "Spotify" to quit'
-22 20 * * 0 /usr/bin/osascript -e 'tell application "Chrome" to quit'
-25 20 * * 0 /usr/bin/osascript -e 'tell application "System Events" to shut down'
-
 ## Christmas Flow - 24rd
-#20 14 * * 0 . ~/.bash_profile && /usr/bin/osascript ~/hallway-tv-automation/start_playlist.scptd 45 "spotify:user:summitcreekkids:playlist:2rwMi3mhRr5qORHtzfP2Fc"
-
-#22 14 * * 0 . ~/.bash_profile && /usr/bin/osascript ~/hallway-tv-automation/open_slideshow.scptd
-
-#05 15 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_down.scptd 10
-#00 16 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_up.scptd 45
-
-#35 16 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_down.scptd 10
-#30 17 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_up.scptd 45
-
-#50 17 * * 0 /usr/bin/osascript -e 'tell application "Spotify" to quit'
-#52 17 * * 0 /usr/bin/osascript -e 'tell application "Chrome" to quit'
-#55 17 * * 0 /usr/bin/osascript -e 'tell application "System Events" to shut down'
+20 14 * * 0 . ~/.bash_profile && /usr/bin/osascript ~/hallway-tv-automation/start_playlist.scptd 45 "spotify:user:summitcreekkids:playlist:2rwMi3mhRr5qORHtzfP2Fc"
+22 14 * * 0 . ~/.bash_profile && /usr/bin/osascript ~/hallway-tv-automation/open_slideshow.scptd
+05 15 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_down.scptd 10
+00 16 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_up.scptd 45
+35 16 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_down.scptd 10
+30 17 * * 0 /usr/bin/osascript ~/hallway-tv-automation/vol_up.scptd 45
+50 17 * * 0 /usr/bin/osascript -e 'tell application "Spotify" to quit'
+52 17 * * 0 /usr/bin/osascript -e 'tell application "Chrome" to quit'
+55 17 * * 0 /usr/bin/osascript -e 'tell application "System Events" to shut down'
